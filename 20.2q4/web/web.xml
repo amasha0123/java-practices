@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<root>
+    <!-- web.xml -->
+<web-app>
+    <servlet>
+        <servlet-name>CheckFavorites</servlet-name>
+        <servlet-class>CheckFavorites</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckFavorites</servlet-name>
+        <url-pattern>/CheckFavorites</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+</root>
+
